@@ -1,0 +1,1 @@
+shutdown  -r -c "weekly reboot"
