@@ -1,0 +1,13 @@
+create table TBL_INFO_PUB_SORT
+(
+  SORT_ID          VARCHAR2(32) not null,
+  SORT_PID         VARCHAR2(32),
+  ORG_ID           VARCHAR2(32),
+  SORT_ORDER       VARCHAR2(4),
+  COMM_CREATE_TIME VARCHAR2(19),
+  COMM_CREATOR     VARCHAR2(32),
+  BLANK0           VARCHAR2(32),
+  BLANK1           VARCHAR2(200),
+  BLANK2           VARCHAR2(500),
+  SORT_NAME        VARCHAR2(100)
+)
