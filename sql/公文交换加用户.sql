@@ -1,5 +1,5 @@
-select * from s_org where PATH_ like '%两违%' for update
-select * from s_user where login_name = 'slwzlb' for update
+select * from s_org where PATH_ like '%厦门大学%' for update
+select * from s_user where login_name = 'xmu' for update
 select * from s_user where login_name = 'duanhaiying' or login_name = 'yangjianbo' for update
 
 insert into s_org_user(S_ORG_ID,s_User_Id) values (17102,11064);
